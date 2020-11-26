@@ -1,0 +1,16 @@
+﻿<Window x:Class="KMISOIBI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Height="350.333" Width="424"
+        Title="БПЗ1702 Крюков">
+    <Grid>
+        <Button x:Name="RsaWindow_Button" Content="RSA" HorizontalAlignment="Left" Margin="99,116,0,0" VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.053,1" Click="RsaWindow_Button_Click" Height="30"/>
+        <Button x:Name="GostWindow_Button" Content="ГОСТ 28147-89" HorizontalAlignment="Left" Margin="99,81,0,0" VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.053,1" Click="GostWindow_Button_Click" Height="30"/>
+        <Button x:Name="DesWindow_Button" Content="DES" Margin="99,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.053,1" Click="DesWindow_Button_Click" Height="30" HorizontalAlignment="Left" Width="200"/>
+        <Button x:Name="HashFunctionWindow_Button" Content="Функция хеширования" HorizontalAlignment="Left" Margin="99,151,0,0" VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.053,1" Click="HashFunctionWindow_Button_Click" Height="30"/>
+        <Button x:Name="DsWindow_Button" Content="Электронная цифровая подпись" HorizontalAlignment="Left" Margin="99,186,0,0" VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.053,1" Click="DsWindow_Button_Click" Height="30"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="99,221,0,0" VerticalAlignment="Top" Width="200" Click="Exit_Button_Click" Height="30"/>
+    </Grid>
+</Window>
